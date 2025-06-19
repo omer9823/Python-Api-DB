@@ -2,3 +2,10 @@ activate venv:
 
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 .\venv\Scripts\Activate.ps1
+
+
+run server:
+
+uvicorn app.main:app --reload
+
+Swagger UI: http://127.0.0.1:8000/docs
