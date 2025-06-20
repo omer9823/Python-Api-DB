@@ -15,3 +15,16 @@ docker commands:
 docker compose build
 docker ps -a
 docker compose up -d
+docker compose down      
+docker compose down -v
+docker logs -f
+
+postgres:
+mydatabase
+postgres
+postgres
+
+pgadmin
+admin@admin.com
+admin
+http://localhost:5050
