@@ -14,7 +14,7 @@ lint:
 	isort --check app
 
 docker-up:
-	docker compose -f .devops/docker-compose.yml up --build -d
+	docker compose -f docker-compose.yml up --build -d
 
 docker-down:
 	docker compose down --volumes --remove-orphans

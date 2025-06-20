@@ -9,3 +9,9 @@ run server:
 uvicorn app.main:app --reload
 
 Swagger UI: http://127.0.0.1:8000/docs
+
+docker commands:
+
+docker compose build
+docker ps -a
+docker compose up -d
